@@ -1,4 +1,5 @@
-export function transformToNumber(value) {
+function transformToNumber(value) {
   return +value;
 }
 
+exports.transformToNumber = transformToNumber;
